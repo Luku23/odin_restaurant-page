@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: url('./restaurant.jpg') no-repeat center center fixed; /* Set the background image */
+    background-size: cover; /* Ensure the image covers the entire screen */
+    color: white; /* Adjust text color for better readability on the background */
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for better readability */
+    color: white;
+    padding: 10px 0;
+}
+
+nav button {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent buttons */
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background: rgba(255, 255, 255, 1); /* Fully opaque on hover */
+}
+
+#content {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent container for content */
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px; /* Rounded corners for a clean look */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
